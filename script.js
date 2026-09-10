@@ -1,12 +1,7 @@
 const toggle=document.querySelector('.menu-toggle');
 const nav=document.querySelector('.nav');
-toggle?.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});
-document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle?.setAttribute('aria-expanded','false');}));
+if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');}));}
 
-document.getElementById('estimateForm')?.addEventListener('submit',(e)=>{
-  e.preventDefault();
-  const data=new FormData(e.currentTarget);
-  const subject=encodeURIComponent(`Estimate Request - ${data.get('service')||'HVAC Service'}`);
-  const body=encodeURIComponent(`Name: ${data.get('name')||''}\nPhone: ${data.get('phone')||''}\nEmail: ${data.get('email')||''}\nService: ${data.get('service')||''}\n\nMessage:\n${data.get('message')||''}`);
-  window.location.href=`mailto:BelaireNY@aol.com?subject=${subject}&body=${body}`;
-});
+const showMoreWork=document.getElementById('showMoreWork');
+const moreWork=document.getElementById('moreWork');
+if(showMoreWork&&moreWork){showMoreWork.addEventListener('click',()=>{const opening=moreWork.hasAttribute('hidden');if(opening){moreWork.removeAttribute('hidden');showMoreWork.textContent='Show Less';showMoreWork.setAttribute('aria-expanded','true');}else{moreWork.setAttribute('hidden','');showMoreWork.textContent='View More of Our Work';showMoreWork.setAttribute('aria-expanded','false');document.getElementById('work')?.scrollIntoView({behavior:'smooth',block:'start'});}});}
