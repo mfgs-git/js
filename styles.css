@@ -33,3 +33,16 @@
 .btn-emergency:hover{background:#e96f00;color:#fff}
 .hero-actions{flex-wrap:wrap}
 @media (max-width:760px){.hero-actions .btn-emergency{width:100%}}
+
+
+/* Floating urgent-service actions */
+.urgent-float-group{position:fixed;right:22px;bottom:22px;z-index:120;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.emergency-float{display:flex;align-items:center;gap:9px;min-height:52px;padding:0 18px;border-radius:999px;color:#fff;font-weight:900;font-size:.9rem;box-shadow:0 12px 28px rgba(0,0,0,.28);border:2px solid rgba(255,255,255,.9);transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.urgent-call{background:#d92525}
+.urgent-call:hover{background:#b91919;color:#fff;transform:translateY(-2px);box-shadow:0 15px 32px rgba(0,0,0,.32)}
+.urgent-text{background:#198bee}
+.urgent-text:hover{background:#0874cc;color:#fff;transform:translateY(-2px);box-shadow:0 15px 32px rgba(0,0,0,.32)}
+.urgent-icon{font-size:1.25rem;line-height:1}
+.emergency-float:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:700px){.urgent-float-group{right:14px;bottom:72px;gap:8px}.emergency-float{min-height:48px;padding:0 15px;font-size:.82rem}}
+@media(max-width:420px){.emergency-float span{display:inline}}
