@@ -46,3 +46,28 @@
 .emergency-float:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(max-width:700px){.urgent-float-group{right:14px;bottom:72px;gap:8px}.emergency-float{min-height:48px;padding:0 15px;font-size:.82rem}}
 @media(max-width:420px){.emergency-float span{display:inline}}
+
+
+/* Regular maintenance — authentic project-photo treatment */
+.maintenance-card{overflow:hidden}
+.maintenance-photo{position:relative;height:220px;overflow:hidden;background:#0d2a43}
+.maintenance-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+.maintenance-card:hover .maintenance-photo img{transform:scale(1.035)}
+.maintenance-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,24,40,.04) 35%,rgba(5,24,40,.88) 100%)}
+.maintenance-photo-label{position:absolute;left:18px;right:18px;bottom:16px;z-index:2;color:#fff;display:flex;flex-direction:column;gap:2px}
+.maintenance-photo-label span{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#dcecf8}
+.maintenance-photo-label strong{font-size:1.05rem;line-height:1.2}
+.maintenance-points{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px;margin-bottom:2px}
+.maintenance-points span{font-size:.72rem;font-weight:800;padding:7px 9px;border:1px solid #dce8f1;border-radius:999px;background:#f5f9fc;color:#163b5a;white-space:nowrap}
+@media(max-width:700px){.maintenance-photo{height:210px}.maintenance-points span{font-size:.7rem}}
+
+
+/* Local SEO service-area section */
+.service-areas { background: #f7f8fa; }
+.area-highlight-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:32px; }
+.area-highlight-grid article { background:#fff; border:1px solid rgba(0,0,0,.08); border-radius:14px; padding:24px; box-shadow:0 8px 24px rgba(0,0,0,.05); }
+.area-highlight-grid h3 { margin:0 0 10px; line-height:1.25; }
+.area-highlight-grid p { margin:0; line-height:1.7; }
+.area-note { margin:28px 0 0; text-align:center; }
+@media (max-width:900px){ .area-highlight-grid{grid-template-columns:1fr 1fr;} }
+@media (max-width:620px){ .area-highlight-grid{grid-template-columns:1fr;} }

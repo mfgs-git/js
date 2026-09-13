@@ -1,0 +1,483 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Bel-Aire Heating & Air Conditioning LLC",
+  "description": "Residential and commercial heating, air conditioning, HVAC installation, repair, maintenance, rooftop systems, split systems and VRF service across Long Island, New York.",
+  "telephone": "+1-631-697-0542",
+  "email": "BelaireNY@aol.com",
+  "priceRange": "$$",
+  "slogan": "Your Comfort Is Our Business",
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Garden City"
+    },
+    {
+      "@type": "Place",
+      "name": "Garden City Park"
+    },
+    {
+      "@type": "Place",
+      "name": "Mineola"
+    },
+    {
+      "@type": "Place",
+      "name": "New Hyde Park"
+    },
+    {
+      "@type": "Place",
+      "name": "Floral Park"
+    },
+    {
+      "@type": "Place",
+      "name": "Franklin Square"
+    },
+    {
+      "@type": "Place",
+      "name": "West Hempstead"
+    },
+    {
+      "@type": "Place",
+      "name": "Hempstead"
+    },
+    {
+      "@type": "Place",
+      "name": "Uniondale"
+    },
+    {
+      "@type": "Place",
+      "name": "East Meadow"
+    },
+    {
+      "@type": "Place",
+      "name": "Levittown"
+    },
+    {
+      "@type": "Place",
+      "name": "Hicksville"
+    },
+    {
+      "@type": "Place",
+      "name": "Westbury"
+    },
+    {
+      "@type": "Place",
+      "name": "Carle Place"
+    },
+    {
+      "@type": "Place",
+      "name": "Roslyn"
+    },
+    {
+      "@type": "Place",
+      "name": "Roslyn Heights"
+    },
+    {
+      "@type": "Place",
+      "name": "Manhasset"
+    },
+    {
+      "@type": "Place",
+      "name": "Great Neck"
+    },
+    {
+      "@type": "Place",
+      "name": "Port Washington"
+    },
+    {
+      "@type": "Place",
+      "name": "Glen Cove"
+    },
+    {
+      "@type": "Place",
+      "name": "Sea Cliff"
+    },
+    {
+      "@type": "Place",
+      "name": "Locust Valley"
+    },
+    {
+      "@type": "Place",
+      "name": "Oyster Bay"
+    },
+    {
+      "@type": "Place",
+      "name": "Syosset"
+    },
+    {
+      "@type": "Place",
+      "name": "Jericho"
+    },
+    {
+      "@type": "Place",
+      "name": "Plainview"
+    },
+    {
+      "@type": "Place",
+      "name": "Bethpage"
+    },
+    {
+      "@type": "Place",
+      "name": "Massapequa"
+    },
+    {
+      "@type": "Place",
+      "name": "Massapequa Park"
+    },
+    {
+      "@type": "Place",
+      "name": "Seaford"
+    },
+    {
+      "@type": "Place",
+      "name": "Wantagh"
+    },
+    {
+      "@type": "Place",
+      "name": "Bellmore"
+    },
+    {
+      "@type": "Place",
+      "name": "Merrick"
+    },
+    {
+      "@type": "Place",
+      "name": "Freeport"
+    },
+    {
+      "@type": "Place",
+      "name": "Baldwin"
+    },
+    {
+      "@type": "Place",
+      "name": "Rockville Centre"
+    },
+    {
+      "@type": "Place",
+      "name": "Oceanside"
+    },
+    {
+      "@type": "Place",
+      "name": "Lynbrook"
+    },
+    {
+      "@type": "Place",
+      "name": "Valley Stream"
+    },
+    {
+      "@type": "Place",
+      "name": "Long Beach"
+    },
+    {
+      "@type": "Place",
+      "name": "Hewlett"
+    },
+    {
+      "@type": "Place",
+      "name": "Woodmere"
+    },
+    {
+      "@type": "Place",
+      "name": "Lawrence"
+    },
+    {
+      "@type": "Place",
+      "name": "Farmingdale"
+    },
+    {
+      "@type": "Place",
+      "name": "Amityville"
+    },
+    {
+      "@type": "Place",
+      "name": "Copiague"
+    },
+    {
+      "@type": "Place",
+      "name": "Lindenhurst"
+    },
+    {
+      "@type": "Place",
+      "name": "Babylon"
+    },
+    {
+      "@type": "Place",
+      "name": "West Babylon"
+    },
+    {
+      "@type": "Place",
+      "name": "Deer Park"
+    },
+    {
+      "@type": "Place",
+      "name": "Melville"
+    },
+    {
+      "@type": "Place",
+      "name": "Dix Hills"
+    },
+    {
+      "@type": "Place",
+      "name": "Huntington"
+    },
+    {
+      "@type": "Place",
+      "name": "Huntington Station"
+    },
+    {
+      "@type": "Place",
+      "name": "Commack"
+    },
+    {
+      "@type": "Place",
+      "name": "Northport"
+    },
+    {
+      "@type": "Place",
+      "name": "East Northport"
+    },
+    {
+      "@type": "Place",
+      "name": "Smithtown"
+    },
+    {
+      "@type": "Place",
+      "name": "Kings Park"
+    },
+    {
+      "@type": "Place",
+      "name": "St. James"
+    },
+    {
+      "@type": "Place",
+      "name": "Hauppauge"
+    },
+    {
+      "@type": "Place",
+      "name": "Ronkonkoma"
+    },
+    {
+      "@type": "Place",
+      "name": "Lake Ronkonkoma"
+    },
+    {
+      "@type": "Place",
+      "name": "Holbrook"
+    },
+    {
+      "@type": "Place",
+      "name": "Holtsville"
+    },
+    {
+      "@type": "Place",
+      "name": "Centereach"
+    },
+    {
+      "@type": "Place",
+      "name": "Selden"
+    },
+    {
+      "@type": "Place",
+      "name": "Coram"
+    },
+    {
+      "@type": "Place",
+      "name": "Port Jefferson"
+    },
+    {
+      "@type": "Place",
+      "name": "Port Jefferson Station"
+    },
+    {
+      "@type": "Place",
+      "name": "Stony Brook"
+    },
+    {
+      "@type": "Place",
+      "name": "Setauket"
+    },
+    {
+      "@type": "Place",
+      "name": "Medford"
+    },
+    {
+      "@type": "Place",
+      "name": "Patchogue"
+    },
+    {
+      "@type": "Place",
+      "name": "East Patchogue"
+    },
+    {
+      "@type": "Place",
+      "name": "Bellport"
+    },
+    {
+      "@type": "Place",
+      "name": "Shirley"
+    },
+    {
+      "@type": "Place",
+      "name": "Mastic"
+    },
+    {
+      "@type": "Place",
+      "name": "Mastic Beach"
+    },
+    {
+      "@type": "Place",
+      "name": "Yaphank"
+    },
+    {
+      "@type": "Place",
+      "name": "Brookhaven"
+    },
+    {
+      "@type": "Place",
+      "name": "Sayville"
+    },
+    {
+      "@type": "Place",
+      "name": "Bayport"
+    },
+    {
+      "@type": "Place",
+      "name": "Blue Point"
+    },
+    {
+      "@type": "Place",
+      "name": "Bohemia"
+    },
+    {
+      "@type": "Place",
+      "name": "Oakdale"
+    },
+    {
+      "@type": "Place",
+      "name": "Islip"
+    },
+    {
+      "@type": "Place",
+      "name": "East Islip"
+    },
+    {
+      "@type": "Place",
+      "name": "West Islip"
+    },
+    {
+      "@type": "Place",
+      "name": "Bay Shore"
+    },
+    {
+      "@type": "Place",
+      "name": "Brentwood"
+    },
+    {
+      "@type": "Place",
+      "name": "Central Islip"
+    },
+    {
+      "@type": "Place",
+      "name": "Riverhead"
+    },
+    {
+      "@type": "Place",
+      "name": "Wading River"
+    },
+    {
+      "@type": "Place",
+      "name": "Rocky Point"
+    },
+    {
+      "@type": "Place",
+      "name": "Miller Place"
+    },
+    {
+      "@type": "Place",
+      "name": "Mount Sinai"
+    },
+    {
+      "@type": "Place",
+      "name": "Middle Island"
+    },
+    {
+      "@type": "Place",
+      "name": "Manorville"
+    },
+    {
+      "@type": "Place",
+      "name": "Center Moriches"
+    },
+    {
+      "@type": "Place",
+      "name": "East Moriches"
+    },
+    {
+      "@type": "Place",
+      "name": "Westhampton"
+    },
+    {
+      "@type": "Place",
+      "name": "Westhampton Beach"
+    },
+    {
+      "@type": "Place",
+      "name": "Hampton Bays"
+    },
+    {
+      "@type": "Place",
+      "name": "Southampton"
+    },
+    {
+      "@type": "Place",
+      "name": "Bridgehampton"
+    },
+    {
+      "@type": "Place",
+      "name": "Sag Harbor"
+    },
+    {
+      "@type": "Place",
+      "name": "East Hampton"
+    },
+    {
+      "@type": "Place",
+      "name": "Montauk"
+    },
+    {
+      "@type": "Place",
+      "name": "Greenport"
+    },
+    {
+      "@type": "Place",
+      "name": "Mattituck"
+    },
+    {
+      "@type": "Place",
+      "name": "Southold"
+    },
+    {
+      "@type": "Place",
+      "name": "Long Island"
+    }
+  ],
+  "knowsAbout": [
+    "Air conditioning installation",
+    "AC repair",
+    "HVAC repair",
+    "Heating repair",
+    "HVAC maintenance",
+    "Furnaces",
+    "Boilers",
+    "Hydronic heating",
+    "Commercial HVAC",
+    "Rooftop HVAC units",
+    "VRF systems",
+    "Ductless mini splits",
+    "Smart thermostats"
+  ],
+  "@id": "https://belairehvac.com/#business",
+  "url": "https://belairehvac.com/",
+  "image": "https://belairehvac.com/assets/belaire-logo.jpg",
+  "logo": "https://belairehvac.com/assets/belaire-logo.jpg"
+}

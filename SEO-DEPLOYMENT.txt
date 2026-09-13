@@ -1,0 +1,52 @@
+BEL-AIRE LOCAL SEO DEPLOYMENT
+=============================
+
+What was added
+- Stronger home-page title and description for Long Island HVAC / AC repair intent.
+- Search-engine robots directives.
+- Schema.org HVACBusiness JSON-LD with Bel-Aire contact information and broad Long Island service areas.
+- Visible Service Areas section covering Garden City, Nassau County, Suffolk County, and many Long Island communities.
+- robots.txt allowing crawling.
+
+IMPORTANT
+No SEO file can guarantee #1 rankings or appearance for every search. Search engines also use business-profile prominence, reviews, relevance, location/proximity, links, website authority, content quality, and competition.
+
+After publishing
+1. Keep the business name, phone number, email and service information consistent with your Google Business Profile and Bing Places listings.
+2. Verify the site in Google Search Console and Bing Webmaster Tools.
+3. Submit https://belairehvac.com/sitemap.xml in Google Search Console and Bing Webmaster Tools.
+4. robots.txt already advertises the production sitemap URL: https://belairehvac.com/sitemap.xml
+5. Request indexing of the home page after deployment.
+6. Add genuine project photos, customer reviews, and useful locally relevant HVAC content over time.
+7. If you create town-specific pages, make each page genuinely useful and unique (local projects, services, photos, FAQs, testimonials). Do not mass-produce nearly identical city pages.
+
+Suggested searches this site is now better aligned for
+- Long Island HVAC
+- Long Island AC repair
+- air conditioning company Long Island
+- heating and cooling Long Island
+- Garden City HVAC
+- Garden City AC repair
+- Nassau County HVAC contractor
+- Suffolk County HVAC contractor
+- commercial HVAC Long Island
+- HVAC installation Long Island
+- HVAC maintenance Long Island
+
+Production domain configured
+----------------------------
+Canonical domain: https://belairehvac.com/
+Sitemap included at: https://belairehvac.com/sitemap.xml
+robots.txt points to the production sitemap.
+
+Current sitemap:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://belairehvac.com/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
