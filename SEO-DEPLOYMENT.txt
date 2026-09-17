@@ -50,3 +50,12 @@ Current sitemap:
     <priority>1.0</priority>
   </url>
 </urlset>
+
+
+V18 LOCAL SEO EXPANSION
+- Added Nassau County service-area hub.
+- Added 16 high-value, indexable local landing pages with unique metadata, copy, FAQs, canonicals, breadcrumbs and local HVAC schema.
+- Added internal links from the home page to priority locations.
+- Updated homepage opening copy to include Mineola.
+- Expanded sitemap.xml to include all new location pages.
+- Avoided mass-producing pages for every small village; smaller communities remain grouped to reduce thin/doorway-page risk.
